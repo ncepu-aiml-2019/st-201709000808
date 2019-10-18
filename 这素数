@@ -1,5 +1,5 @@
 
-l = []
+a = []
 for x in range(100):    #判断如果ｘ是素数，则打印，如果不是素数就跳过    
     if x <2:       
         continue    
@@ -7,5 +7,5 @@ for x in range(100):    #判断如果ｘ是素数，则打印，如果不是素�
         if x % i ==0:           
                 break   
     else:        
-         l.append(x)
+         a.append(x)
 print(l)
